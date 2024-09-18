@@ -1,0 +1,149 @@
+.logo {
+  width: 100px;
+}
+
+.img {
+  width: 100%;
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+li,
+li .nav {
+  list-style-type: none;
+}
+
+a.nav-link {
+  color: #212529;
+}
+
+img.card-img-top {
+  height: 140px;
+  background-size: cover;
+}
+
+@media(max-width:992px) {
+  img.card-img-top {
+    height: 250px;
+  }
+}
+
+.card-body {
+  height: 200px;
+}
+
+img {
+  background-size: cover;
+}
+
+.my-circle {
+  height: 140px;
+  min-height: 140px;
+  width: 140px;
+  min-width: 140px;
+  border-radius: 50%;
+}
+
+.footer-icon {
+  width: 15px;
+  height: 15px;
+}
+
+.carousel-item {
+  height: 100%;
+  /* 設定固定高度，根據需要調整 */
+}
+
+.carousel-caption {
+  bottom: 50%;
+  /* 調整這裡來改變垂直位置 */
+  transform: translateY(50%);
+}
+
+
+.navbar-nav {
+  text-align: center;
+}
+
+ul .www {
+  flex-direction: row;
+}
+
+ul .www {
+  padding-left: 0;
+
+}
+
+.object-cover {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  overflow-x: hidden;
+  /* 防止水平滾動 */
+}
+
+button .col {
+  width: 40%;
+}
+
+.custom- {
+  min-width: 100px;
+  max-width: 200px;
+  white-space: nowrap;
+}
+
+.object-cover-2 {
+  object-fit: cover;
+  width: 400px;
+  height: auto;
+}
+
+@media(max-width:992px) {
+  .object-cover-2 {
+    width: 684px;
+  }
+}
+
+.example {
+  position: relative;
+  width: 100%;
+  height: 100px;
+  /* 你可以根据需要调整高度 */
+  overflow: hidden;
+}
+
+.example img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: translate(-50%, -50%);
+}
+
+@media(max-width:768px) {
+  .example {
+    height: 220px;
+  }
+}
+
+.custom-rounded-button {
+  border-radius: 0.25rem !important;
+  /* 你可以根據需要調整倒角半徑 */
+}
+
+.col-card {
+  position: relative;
+}
+
+.btn-card {
+  position: absolute;
+  bottom: 16px;
+  right: 16px;
+}
